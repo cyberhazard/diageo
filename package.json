@@ -14,12 +14,16 @@
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
-    "styled-components": "^3.3.2"
+    "styled-components": "^3.3.2",
+    "svgr": "^1.10.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-app-rewire-svgr": "^1.1.1"
   }
 }
